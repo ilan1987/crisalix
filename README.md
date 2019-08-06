@@ -1,13 +1,12 @@
 # mnist-lenet-keras
 
-from http://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/
+I have originally taken the code from here https://github.com/f00-/mnist-lenet-keras.git
 
 ## Install
 ```
   
-  git clone https://github.com/f00-/mnist-lenet-keras.git
-  cd mnist-lenet-keras
-  pip install -r requirements.txt
+install keras, matplotlib, cv2
+The mnist.py trains mnist, lenet.py are the architectures, the analyse_acc.py analyse the csv of the accuracy (which in my case was taken from tensorboard
 ```
 
 ## Usage
@@ -15,5 +14,3 @@ from http://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-
   python mnist.py
 ```
 
-## Example Output
-![Example Output](http://i.imgur.com/IqJeJKY.png)
